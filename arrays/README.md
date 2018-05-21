@@ -26,3 +26,6 @@ The challenge is to take an input array and an input number, search the array wi
 
 ## Solution
 <img src='/assets/binary_search.jpg'>
+
+#### Travis testing for binary search: <img src='https://travis-ci.com/jozue06/data-structures-and-algorithms.svg?branch=binary_search'>
+
