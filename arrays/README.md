@@ -27,5 +27,11 @@ The challenge is to take an input array and an input number, search the array wi
 ## Solution
 <img src='/assets/binary_search.jpg'>
 
+#### Binary search checklist
+[x] read through problem
+[x] wrote out whiteboard, problem domain, algorithm, psuedo
+[x] worked on getting code to spec
+[x] passed all tests
+
 #### Travis testing for binary search: <img src='https://travis-ci.com/jozue06/data-structures-and-algorithms.svg?branch=binary_search'>
 
