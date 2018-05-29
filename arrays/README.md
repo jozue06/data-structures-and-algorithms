@@ -29,3 +29,22 @@ The challenge is to take an input array and an input number, search the array wi
 
 #### Travis testing for binary search: <img src='https://travis-ci.com/jozue06/data-structures-and-algorithms.svg?branch=binary_search'>
 
+
+# Largest product of 2 adjacent values in a 2D array
+
+We need to take an array, and a search Key and check the array for the search key, return ing its index.
+
+## Challenge
+The challenge is to take an input 2d array and check for the largest product of each adjacent
+
+
+### Checklist
+
+1. Featured task
+
+1. Structure and testing
+
+1. Documentation [x]
+
+
+<img src='/assets/array_adjacent_product.jpg'>
