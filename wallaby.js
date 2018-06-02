@@ -2,9 +2,9 @@ module.exports = function () {
 
   return{
 
-    files: ['/arrays/**/*.js'],
+    files: ['../**/**/*.js'],
     
-    tests: ['/arrays_tests/**/*.test.js'],
+    tests: ['../**/**/*.test.js'],
     
     env: {
       type: 'node',
