@@ -54,3 +54,26 @@ The challenge is to take an input 2d array and check for the largest product of 
 
 
 <img src='/assets/array_adjacent_product.jpg'>
+
+
+
+# linked list insertions
+
+We need to build a new linked list, and add functions to insert as certain locations.
+
+## Challenge
+
+create  `append` `prepend` `insertAfter` and `insertBefore` modules that export the respective functions to mess around with our new singly linked list.
+
+I've not coded this one out. only the whiteboard.
+
+### Checklist
+
+1. Featured tasks [x]
+
+1. Structure and testing [x]
+
+1. Documentation [x]
+
+
+<img src='/assets/ll_insertions.jpg'>
