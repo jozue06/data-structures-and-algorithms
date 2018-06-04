@@ -4,15 +4,15 @@ const Node = require('./ll_node.js');
 
 class LinkedList {
   constructor() {
-    this.head   = null;
+    this.root   = null;
     this.length = 0;
   }
     
-  append(data) {
-    const nodeToAdd = new Node(data);
-    let nodeToCheck = this.head;
+  append(value) {
+    const nodeToAdd = new Node(value);
+    let nodeToCheck = this.root;
     if(!nodeToCheck) {
-      this.head = nodeToAdd;
+      this.root = nodeToAdd;
       this.length++;
       return nodeToAdd;
     }
@@ -23,13 +23,24 @@ class LinkedList {
     this.length++;
     return nodeToAdd;
   }
-  insertBefore(data , num) {
-    let nodeToCheck = this.head;
+
+
+
+
+  insertBefore(value) {
+    let nodeToCheck = this.root;
     let count = 0;
+
+
+    if(!this.root.value === value){
+      const nodeToAdd = new Node(value);
+      // this.root = nodeToAdd;
+      this.root.next = nodeToAdd;
+    }
       
-    if(num > this.length) return 'Doesn\'t Exist!';
+    if(value > this.length) return 'Doesn\'t Exist!';
       
-    while(count < num) {
+    while(count < value) {
       nodeToCheck = nodeToCheck.next;
       count++;
     }
@@ -37,8 +48,13 @@ class LinkedList {
     return nodeToCheck;
   }
 
+
+
+
+
+
   insertAfter(data , num) {
-    let nodeToCheck = this.head;
+    let nodeToCheck = this.root;
     let count = 0;
       
     if(num < this.length) return 'Doesn\'t Exist!';
@@ -53,4 +69,36 @@ class LinkedList {
  
 }
 
+
+reverse(){
+if(!this.root){
+
+  let prev = null;
+  let cur = thise.root
+  let initialNext;
+  while(cur.next){
+    initialNext = cur.net;
+    cur.next;
+  
+}
+
+serialize(){
+  let str = '';
+  let node = this.root;
+  while (node) {
+    str += '[' + node.value + '] ->';
+    node = node.next;
+  
+  }
+  str += '[X]';
+  return str;
+}
+
+deserialize(str){
+
+  
+}
+
+
+}
 module.exports = LinkedList;
