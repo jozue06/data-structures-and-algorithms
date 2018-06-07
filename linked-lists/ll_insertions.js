@@ -25,8 +25,6 @@ class LinkedList {
   }
 
 
-
-
   insertBefore(value) {
     let nodeToCheck = this.root;
     let count = 0;
@@ -47,7 +45,6 @@ class LinkedList {
       
     return nodeToCheck;
   }
-
 
 
 
