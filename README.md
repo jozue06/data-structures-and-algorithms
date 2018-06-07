@@ -71,3 +71,24 @@ I've not coded this one out. only the whiteboard.
 
 
 <img src='/assets/ll_insertions.jpg'>
+
+
+# linked list kth from the end
+
+Write a method to find the `val` at k from the end in a linked list
+
+## Challenge
+
+Write a method that takes in a number, using that number, finds the `node` in a linked list at the number from the `end` of the linked list and returns that `node`.
+
+### Checklist
+
+1. Whiteboard [X]
+1. Featured tasks [ ]
+
+1. Structure[x]
+
+1. Documentation [x]
+
+
+<img src='/assets/ll_kth_from_end.jpg'>
