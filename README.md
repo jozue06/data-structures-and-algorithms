@@ -92,3 +92,30 @@ Write a method that takes in a number, using that number, finds the `node` in a 
 
 
 <img src='/assets/ll_kth_from_end.jpg'>
+
+
+# Linked List Merger
+[![Build Status](https://travis-ci.com/jozue06/data-structures-and-algorithms.svg?branch=ll_merge)](https://travis-ci.com/jozue06/data-structures-and-algorithms)
+
+Merge two linked list together, but doing a `zipper` merge.
+
+
+## Challenge
+
+Write a `function` or `method` that takes in two linked lists as `args`. Return 1 linked list with the values of both in offset nodes.
+
+### Checklist
+
+1. Whiteboard [X]
+
+1. Featured tasks [X]
+
+1. Structure[X]
+
+1. Tests [X]
+
+1. Documentation [X]
+
+
+
+<img src='/assets/ll_merge.jpg'>
