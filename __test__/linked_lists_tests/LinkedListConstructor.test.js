@@ -1,4 +1,4 @@
-const LinkedList = require('/Users/joshuamcclung/codefellows/401/data-structures-and-algorithms/linked-lists/LinkedListConstructor.js');
+const LinkedList = require('../../linked-lists/LinkedListConstructor.js');
 
 describe('Linked List Insertions', () => {
 

@@ -95,8 +95,10 @@ Write a method that takes in a number, using that number, finds the `node` in a 
 
 
 # Linked List Merger
+[![Build Status](https://travis-ci.com/jozue06/data-structures-and-algorithms.svg?branch=ll_merge)](https://travis-ci.com/jozue06/data-structures-and-algorithms)
 
 Merge two linked list together, but doing a `zipper` merge.
+
 
 ## Challenge
 
