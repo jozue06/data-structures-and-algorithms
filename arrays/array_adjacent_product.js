@@ -1,10 +1,10 @@
-'use strict';
+// 'use strict';
 
-module.exports = exports = {};
+// module.exports = exports = {};
 
-exports.array_adjacent_product = (arr) => {
+// exports.array_adjacent_product = (arr) => {
     
 
-};
+// };
   
 
