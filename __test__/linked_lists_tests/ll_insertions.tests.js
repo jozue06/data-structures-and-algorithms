@@ -1,9 +1,6 @@
 'use strict';
 
-const ll_insertions = require('../linked-lists/ll_insertions');
-
-
-
+const ll_insertions = require('/Users/joshuamcclung/codefellows/401/data-structures-and-algorithms/linked-lists/ll_insertions.js');
 
 describe('Linked List Insertions', () => {
 
