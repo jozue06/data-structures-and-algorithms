@@ -119,3 +119,31 @@ Write a `function` or `method` that takes in two linked lists as `args`. Return 
 
 
 <img src='/assets/ll_merge.jpg'>
+
+
+
+# Detect Linked List for Loop
+[![Build Status](https://travis-ci.com/jozue06/data-structures-and-algorithms.svg?branch=ll_detect_loop)](https://travis-ci.com/jozue06/data-structures-and-algorithms)
+
+Check a linked list, if it has a loop or is "Circular".
+
+
+## Challenge
+
+export a `method` of the `LinkedList class` to return a `boolean` if a linkedList has a loop or not. 
+
+### Checklist
+
+1. Whiteboard [X]
+
+1. Featured tasks [X]
+
+1. Structure[X]
+
+1. Test [X]
+
+1. Documentation [X]
+
+
+
+<img src='/assets/ll_detect_loop.jpg'>
