@@ -42,7 +42,7 @@ class LinkedList {
   
     }
     return true;
-  };
+  }
 
 }
 module.exports = LinkedList;
