@@ -2,9 +2,9 @@ module.exports = function () {
 
   return{
 
-    files: ['/arrays/**/*.js'],
+    files: ['/Users/joshuamcclung/codefellows/401/data-structures-and-algorithms/*.js'],
     
-    tests: ['/arrays_tests/**/*.test.js'],
+    tests: ['/__test__/linked_lists_tests/**.test.js'],
     
     env: {
       type: 'node',
