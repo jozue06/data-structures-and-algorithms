@@ -21,8 +21,8 @@ describe('mergin two', ()=>{
     console.log(newList.head);
     console.log(newList.head.next);//?
     console.log(newList.length);//?
-    expect(newList.head.next.next.data).toBe(2);
     expect(newList.length).toBe(7);//?
+    expect(newList.head.next.next.data).toBe(2);
   });
 
 

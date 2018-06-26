@@ -3,6 +3,7 @@
 const ll_merge = (list1, list2) => {
   let new1 = list1.head;
   let new2 = list2.head;
+  
   while (new1 || new2) {
     list1.length++;
     if (!new2) {
@@ -32,19 +33,3 @@ const ll_merge = (list1, list2) => {
 
 
 module.exports = ll_merge;
-
-
-
-// while (counter === 0){
-//   list1.head.next = list2.head;
-//   list1.length++;
-//   counter +1;
-
-//   if(list2.next !== null){ 
-//     let newHead = (list2.head.next + counter);
-//     list1.head.next = newHead;
-//     list1.head.next = list2.head;
-//     if(list1.next !== null){list1.length++;}
-//     return list1;
-//   }
-// }
