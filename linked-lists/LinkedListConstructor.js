@@ -1,6 +1,6 @@
 'use strict';
 
-const Node = require('./ll_node.js');
+import Node from './ll_node.js';
 
 
 class LinkedList {
@@ -45,4 +45,4 @@ class LinkedList {
   }
 
 }
-module.exports = LinkedList;
+export default LinkedList;

@@ -147,3 +147,28 @@ export a `method` of the `LinkedList class` to return a `boolean` if a linkedLis
 
 
 <img src='/assets/ll_detect_loop.jpg'>
+
+
+# Queue with only two Stacks
+[![Build Status](https://travis-ci.com/jozue06/data-structures-and-algorithms.svg?branch=ll_detect_loop)](https://travis-ci.com/jozue06/data-structures-and-algorithms)
+
+build a FIFO queue with methods, with only two stacks
+
+## Challenge
+
+Write two `methods`, `enqueue` & `dequeue` for our queue using only two stacks.
+
+### Checklist
+
+- [x] Whiteboard 
+
+- [X] Structure 
+
+- [X] Documentation 
+
+- [ ] Featured tasks 
+
+- [ ] Test 
+
+
+<img src='/assets/queue_with_stacks.jpg'>
