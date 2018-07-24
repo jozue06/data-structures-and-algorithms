@@ -175,7 +175,7 @@ Write two `methods`, `enqueue` & `dequeue` for our queue using only two stacks.
 
 
 
-# Queue with only two Stacks
+# Fizz Buzz Tree
 [![Build Status](https://travis-ci.com/jozue06/data-structures-and-algorithms.svg?branch=ll_detect_loop)](https://travis-ci.com/jozue06/data-structures-and-algorithms)
 
 Make a fizz buzz search in a tree
@@ -198,3 +198,29 @@ Write a function called fizzbuzztree, that takes a tree as an input and returns 
 
 
 <img src='/assets/fizzbuzztree.jpg'>
+
+
+
+# Breadth first tree traversal
+[![Build Status](https://travis-ci.com/jozue06/data-structures-and-algorithms.svg?branch=ll_detect_loop)](https://travis-ci.com/jozue06/data-structures-and-algorithms)
+
+Traverse a tree by breadth first.
+
+## Challenge
+
+Write a function called breadthFirstTraversal, that takes a tree as an input and searches each node in the tree via breadth first, and returns each node visited.
+
+### Checklist
+
+- [x] Whiteboard 
+
+- [X] Structure 
+
+- [X] Documentation 
+
+- [ ] Featured tasks 
+
+- [ ] Test 
+
+
+<img src='/assets/breadthFirst.jpg'>
