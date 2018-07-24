@@ -25,8 +25,6 @@ class LinkedList {
   }
 
 
-
-
   insertBefore(value) {
     let nodeToCheck = this.root;
     let count = 0;
@@ -52,7 +50,6 @@ class LinkedList {
 
 
 
-
   insertAfter(data , num) {
     let nodeToCheck = this.root;
     let count = 0;
@@ -68,37 +65,32 @@ class LinkedList {
   }
  
 }
-
-
-reverse(){
-if(!this.root){
-
-  let prev = null;
-  let cur = thise.root
-  let initialNext;
-  while(cur.next){
-    initialNext = cur.net;
-    cur.next;
-  
-}
-
-serialize(){
-  let str = '';
-  let node = this.root;
-  while (node) {
-    str += '[' + node.value + '] ->';
-    node = node.next;
-  
-  }
-  str += '[X]';
-  return str;
-}
-
-deserialize(str){
-
-  
-}
-
-
-}
 module.exports = LinkedList;
+
+
+// reverse(){
+// if(!this.root){
+
+//   let prev = null;
+//   let cur = thise.root
+//   let initialNext;
+//   while(cur.next){
+//     initialNext = cur.net;
+//     cur.next;
+  
+// }
+
+// serialize(){
+//   let str = '';
+//   let node = this.root;
+//   while (node) {
+//     str += '[' + node.value + '] ->';
+//     node = node.next;
+  
+//   }
+//   str += '[X]';
+//   return str;
+// }
+
+// deserialize(str){
+// }
