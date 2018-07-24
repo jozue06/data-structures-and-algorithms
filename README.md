@@ -172,3 +172,29 @@ Write two `methods`, `enqueue` & `dequeue` for our queue using only two stacks.
 
 
 <img src='/assets/queue_with_stacks.jpg'>
+
+
+
+# Queue with only two Stacks
+[![Build Status](https://travis-ci.com/jozue06/data-structures-and-algorithms.svg?branch=ll_detect_loop)](https://travis-ci.com/jozue06/data-structures-and-algorithms)
+
+Make a fizz buzz search in a tree
+
+## Challenge
+
+Write a function called fizzbuzztree, that takes a tree as an input and returns fizz if modulo of 3, buzz if modulo of 5, and fizzbuzz if modulo of both, or 15.
+
+### Checklist
+
+- [x] Whiteboard 
+
+- [X] Structure 
+
+- [X] Documentation 
+
+- [ ] Featured tasks 
+
+- [ ] Test 
+
+
+<img src='/assets/fizzbuzztree.jpg'>
