@@ -224,3 +224,28 @@ Write a function called breadthFirstTraversal, that takes a tree as an input and
 
 
 <img src='/assets/breadthFirst.jpg'>
+
+
+
+# Find Maximum Value
+[![Build Status](https://travis-ci.com/jozue06/data-structures-and-algorithms.svg?branch=ll_detect_loop)](https://travis-ci.com/jozue06/data-structures-and-algorithms)
+
+Search a tree for its max value on a node.
+## Challenge
+
+Write a function called findMaximumValue, that takes a tree as an input and searches each node in the tree for the maximum node value, and returns the maximum value.
+
+### Checklist
+
+- [x] Whiteboard 
+
+- [X] Structure 
+
+- [X] Documentation 
+
+- [ ] Featured tasks 
+
+- [ ] Test 
+
+
+<img src='/assets/findMax.jpg'>
